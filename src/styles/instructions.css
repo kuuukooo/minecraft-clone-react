@@ -1,0 +1,55 @@
+@import url('https://fonts.cdnfonts.com/css/minecraft-4');
+
+body, html {
+  font-family: 'Minecraft', sans-serif;
+  position: absolute;
+}
+
+.instructions-menu {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  border-radius: 8px;
+  width: 300px;
+  font-family: Arial, sans-serif;
+}
+
+.instructions-close-menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.instructions-close-menu button {
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 5px 10px;
+}
+
+.instructions-close-menu button:hover {
+  background: darkred;
+}
+
+.instructions-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.instructions-list li {
+  margin: 10px 0;
+}
+
+.key {
+  background: #333;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: bold;
+}
